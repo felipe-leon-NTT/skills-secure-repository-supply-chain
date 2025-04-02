@@ -4,13 +4,8 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-  - package-ecosystem: "npm"
+  - package-ecosystem: "nuget"
     directory: "/code/"
     schedule:
       interval: "weekly"
-    # Ignore updates for tough-cookie (it still creates the alerts, but no the PR to update the dependency)
-    ignore:
-      - dependency-name: "tough-cookie"
-    # Disable version updates for npm dependencies
-    open-pull-requests-limit: 0
-    
+      
