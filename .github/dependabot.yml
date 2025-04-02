@@ -8,7 +8,7 @@ updates:
     directory: "/code/"
     schedule:
       interval: "weekly"
-    # Ignore updates for tought-cookie (it still creates the alerts, but no the PR to update the dependency)
+    # Ignore updates for tough-cookie (it still creates the alerts, but no the PR to update the dependency)
     ignore:
       - dependency-name: "tough-cookie"
     # Disable version updates for npm dependencies
