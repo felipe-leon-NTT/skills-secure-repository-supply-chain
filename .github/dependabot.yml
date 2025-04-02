@@ -8,3 +8,9 @@ updates:
     directory: "/code/"
     schedule:
       interval: "weekly"
+    # Ignore updates for tought-cookie
+    ignore:
+      - dependency-name: "tough-cookie"
+    # Disable version updates for npm dependencies
+    open-pull-requests-limit: 0
+    
